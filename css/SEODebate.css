@@ -87,3 +87,6 @@ input::placeholder {
 .services-padding {
     padding-top: 160px;
 }
+.nav-bg {
+    background-color: #f5f7fb!important;
+}
