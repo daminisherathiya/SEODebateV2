@@ -19,7 +19,12 @@
 .font-averta-bold {
   font-family: Averta-Bold;
 }
-/* style="background: url(./images/backgrounds/background_top.png) no-repeat top 70px center;" */
+.background-gradient {
+  background: linear-gradient(181deg,#f5f7fb 50%,#fff 63%);
+}
+.background-banner-image {
+  background: url(../images/backgrounds/background_top.png) no-repeat top 75px center;
+}
 body {
     font-family: Averta-Regular;
     /* color: #5b6987; */
@@ -63,7 +68,7 @@ input::placeholder {
     font-weight: 400;
 }
 .title-top-padding {
-    padding-top: 160px;
+    padding-top: 168px;
 }
 .padding-30 {
     padding: 30px;
