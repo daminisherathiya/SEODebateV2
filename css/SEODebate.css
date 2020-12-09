@@ -19,16 +19,25 @@
 .font-averta-bold {
   font-family: Averta-Bold;
 }
-
+/* style="background: url(./images/backgrounds/background_top.png) no-repeat top 70px center;" */
 body {
     font-family: Averta-Regular;
     /* color: #5b6987; */
 }
+.navbar-height {
+    line-height: 3;
+}
 .light-blue-bgcolor {
     background-color: #3369e8 !important;
 }
+.light-blue-color {
+    color: #3369e8 !important;
+}
 .gray-color {
     color: #5b6987 !important;
+}
+.light-blue-color-h1 {
+    color: #2d6adf;
 }
 .dark-blue-color {
     color: #031b4e !important;
@@ -36,7 +45,45 @@ body {
 .font-size-15 {
     font-size: 15px !important;
 }
+.font-size-30 {
+    font-size: 30px !important;
+}
+.font-size-21 {
+    font-size: 21px !important;
+}
 .nav-item-padding {
     padding: 0 16px !important;
 }
-
+.search-bar {
+    margin-top: 35px;
+    height: 60px;
+}
+input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+}
+.title-top-padding {
+    padding-top: 160px;
+}
+.card-padding {
+    padding: 30px;
+}
+.shadow-card {
+    box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
+}
+.shadow-input {
+    box-shadow: 0.954px 4.908px 9px 0 rgba(185,192,206,.5);
+}
+.card-subtxt {
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+.card-margin-top {
+    margin-top: 40px;
+}
+.card-container-margin-top {
+    margin-top: 130px;
+}
+.services-padding {
+    padding-top: 160px;
+}
