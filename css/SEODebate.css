@@ -150,3 +150,30 @@ input::placeholder {
 .seo-community-top-padding {
   padding-top: 125px;
 }
+.featured-card-margin {
+  margin-left: 36px;
+  margin-bottom: 50px;
+}
+.featured-card-repeat-padding {
+  padding: 50px 50px 50px 75px;
+}
+.icon-position {
+  position: absolute;
+  left: -12px;
+  top: 40px;
+}
+.featured-card-padding:hover {
+  box-shadow: -6px 0 24px 0 rgba(104,113,134,.15);
+}
+.featured-card-padding:hover > div > a > p {
+  color: #2d6adf !important;
+}
+.featured-card-repeat-margin {
+  margin-top: 77px;
+}
+.padding-40 {
+  padding: 40px 40px 0 40px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
