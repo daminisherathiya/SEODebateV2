@@ -112,3 +112,41 @@ input::placeholder {
 .video-padding-top {
     padding-top: 145px;
 }
+.bg-questions {
+  background-color: #e8ecf7;
+}
+.bg-videos {
+  background-color: #d3edd8;
+  color: #009925;
+}
+.bg-articles {
+  background-color: #fdf2dd;
+  color: #eeb211;
+}
+.bg-resources {
+  background-color: #fbe8ea;
+  color: #d51329;
+}
+.bg-tools {
+  background-color: #e5f3fb;
+  color: #299de0;
+}
+.bg-topics {
+  background-color: #eedbfb;
+  color: #a73beb;
+}
+.featured-card-padding {
+  padding: 23px 26px;
+}
+.featured-card-img {
+  margin-right: 21px;
+}
+.light-divider {
+  color: #e5e7ec;
+}
+.featured-top-padding {
+  padding-top: 80px;
+}
+.seo-community-top-padding {
+  padding-top: 125px;
+}
