@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Averta-Bold;
+  src: url(../fonts/Averta-Bold.ttf);
+}
+@font-face {
+  font-family: Averta-Semibold;
+  src: url(../fonts/Averta-Semibold.ttf);
+}
+@font-face {
+  font-family: Averta-Regular;
+  src: url(../fonts/Averta-Regular.ttf);
+}
+.font-averta-regular {
+  font-family: Averta-Regular;
+}
+.font-averta-semibold {
+  font-family: Averta-Semibold;
+}
+.font-averta-bold {
+  font-family: Averta-Bold;
+}
+
+body {
+    font-family: Averta-Regular;
+    /* color: #5b6987; */
+}
+.light-blue-bgcolor {
+    background-color: #3369e8 !important;
+}
+.gray-color {
+    color: #5b6987 !important;
+}
+.dark-blue-color {
+    color: #031b4e !important;
+}
+.font-size-15 {
+    font-size: 15px !important;
+}
+.nav-item-padding {
+    padding: 0 16px !important;
+}
+
