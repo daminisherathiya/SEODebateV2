@@ -65,8 +65,11 @@ input::placeholder {
 .title-top-padding {
     padding-top: 160px;
 }
-.card-padding {
+.padding-30 {
     padding: 30px;
+}
+.padding-y-42 {
+    padding: 42px 0;
 }
 .shadow-card {
     box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
@@ -78,8 +81,10 @@ input::placeholder {
     margin-top: 18px;
     margin-bottom: 25px;
 }
-.card-margin-top {
-    margin-top: 40px;
+@media (min-width: 576px) {
+    .card-margin-top {
+        margin-top: 40px;
+    }
 }
 .card-container-margin-top {
     margin-top: 130px;
@@ -88,5 +93,17 @@ input::placeholder {
     padding-top: 160px;
 }
 .nav-bg {
-    background-color: #f5f7fb!important;
+    background-color: #f5f7fb !important;
+}
+.services-card-padding {
+    padding: 20px;
+}
+.p-top-margin {
+    margin-top: 20px;
+}
+.services-margin-top {
+    margin-top: 95px;
+}
+.video-padding-top {
+    padding-top: 145px;
 }
