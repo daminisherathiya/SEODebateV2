@@ -142,8 +142,9 @@ input::placeholder {
 .services-margin-top {
     margin-top: 95px;
 }
-.video-padding-top {
+.video-setter {
     padding-top: 145px;
+    background: url(../images/backgrounds/background_between.png) no-repeat top 45px center;
 }
 .bg-questions {
   background-color: #e8ecf7;
@@ -180,8 +181,10 @@ input::placeholder {
 .featured-top-padding {
   padding-top: 80px;
 }
-.seo-community-top-padding {
+.seo-community {
   padding-top: 125px;
+  padding-bottom: 25px;
+  background: linear-gradient(181deg,#fff 33%,#f5f7fb 66%);
 }
 .featured-card-margin {
   margin-left: 36px;
@@ -211,17 +214,19 @@ input::placeholder {
   margin-bottom: 40px;
 }
 .all-about-seo-top-padding {
-  padding-top: 110px;
-}
-.latest-top-padding {
   padding-top: 80px;
+}
+.latest-y-padding {
+  padding-top: 80px;
+  padding-bottom: 90px;
 }
 .newsletter-checkbox-padding {
   padding: 0 25px;
 }
-.footer-padding {
-  padding-top: 156px;
-  padding-bottom: 75px;
+.footer-setter {
+  padding-top: 100px;
+  padding-bottom: 89px;
+  background: url(../images/backgrounds/background_bottom.png) no-repeat top 80px center;
 }
 .my-30 {
   margin: 30px 0;
@@ -230,8 +235,12 @@ input::placeholder {
   font-size: 27px !important;
   padding-right: 10px;
 }
-.newsletter-top-padding {
-  padding-top: 56px;
+.newsletter-y-padding {
+  padding: 67px 0 67px 0;
+  background: url(../images/newsletter-bg.png) no-repeat top center;
+}
+.newsletter-background {
+  background-color: #f5f7fb;
 }
 .dot {
   height: 30px;
