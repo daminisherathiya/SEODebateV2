@@ -50,6 +50,9 @@ body {
 .font-size-15 {
     font-size: 15px !important;
 }
+.font-size-18 {
+  font-size: 18px !important;
+}
 .font-size-30 {
     font-size: 30px !important;
 }
@@ -182,6 +185,18 @@ input::placeholder {
 }
 .latest-top-padding {
   padding-top: 80px;
+}
+.be-social-fa-icon-font-size {
+  font-size: 27px;
+}
+.footer-padding-top {
+  padding-top: 56px;
+}
+.my-30 {
+  margin: 30px 0;
+}
+.newsletter-top-padding {
+  padding-top: 56px;
 }
 .dot {
   height: 30px;
