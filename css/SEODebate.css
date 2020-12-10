@@ -47,6 +47,9 @@ body {
 .dark-blue-color {
     color: #031b4e !important;
 }
+.font-size-14 {
+  font-size: 14px !important;
+}
 .font-size-15 {
     font-size: 15px !important;
 }
@@ -81,9 +84,29 @@ input::placeholder {
 }
 .shadow-card {
     box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
+    border-radius: 6px;
 }
 .shadow-input {
     box-shadow: 0.954px 4.908px 9px 0 rgba(185,192,206,.5);
+}
+.border-radius-4 {
+  border-radius: 4px;
+}
+.border-radius-top-8 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.border-radius-bottom-8 {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.border-radius-top-6 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.border-radius-bottom-6 {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .card-subtxt {
     margin-top: 18px;
@@ -186,14 +209,19 @@ input::placeholder {
 .latest-top-padding {
   padding-top: 80px;
 }
-.be-social-fa-icon-font-size {
-  font-size: 27px;
+.newsletter-checkbox-padding {
+  padding: 0 25px;
 }
-.footer-padding-top {
+.footer-padding {
   padding-top: 56px;
+  padding-bottom: 75px;
 }
 .my-30 {
   margin: 30px 0;
+}
+.be-social-fa-icon-font-size {
+  font-size: 27px !important;
+  padding-right: 10px;
 }
 .newsletter-top-padding {
   padding-top: 56px;
