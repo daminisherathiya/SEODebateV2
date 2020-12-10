@@ -73,6 +73,10 @@ input::placeholder {
     font-size: 18px;
     font-weight: 400;
 }
+.newsletter-top-padding input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+}
 .title-top-padding {
     padding-top: 168px;
 }
@@ -81,6 +85,9 @@ input::placeholder {
 }
 .padding-y-42 {
     padding: 42px 0;
+}
+.margin-top-15 {
+  margin-top: 15px;
 }
 .shadow-card {
     box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
@@ -213,7 +220,7 @@ input::placeholder {
   padding: 0 25px;
 }
 .footer-padding {
-  padding-top: 56px;
+  padding-top: 156px;
   padding-bottom: 75px;
 }
 .my-30 {
