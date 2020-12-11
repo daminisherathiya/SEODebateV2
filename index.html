@@ -76,7 +76,7 @@
           <div class="row justify-content-center">
             <div class="col-md-8 col-sm-10">
               <h1 class="text-center font-size-30 font-averta-bold light-blue-color-h1">Welcome to the SEODebate Community</h1>
-              <div class="input-group shadow-input search-bar ">
+              <div class="input-group shadow-input search-bar">
                 <span class="input-group-append">
                   <div class="input-group-text bg-white border-0 px-4"><i class="fas fa-search fa-lg"></i></div>
                 </span>
@@ -457,7 +457,7 @@
     <section class="latest-y-padding">
       <div class="container">
         <h4 class="font-averta-bold font-size-21 dark-blue-color mb-28">Latest</h4>
-        <div id="id-pagination-data">
+        <div id="id-pagination-data" class="mb-11">
           <div class="d-flex featured-card-padding border border-bottom-0 border-radius-top-8">
             <div class="featured-card-img"><img src="./images/featured-icons/questions.png" alt=""></div>
             <div>
@@ -587,14 +587,14 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4 pt-1 mx-2">
+        <div class="row mx-2">
           <div class="d-none d-lg-block col-lg-4"></div>
-          <div class="col-12 col-md-6 col-lg-4 pl-0 my-0">
+          <div class="col-12 col-md-6 col-lg-4 pl-0 mt-17">
             <nav id="id-pagination-nav">
               <ul
                 class="pagination pagination-sm justify-content-center justify-content-md-start justify-content-lg-center">
                 <li id="id-pagination-lt" class="d-none page-item px-1"><a class="page-link dot border-0"
-                    onclick="pagination_setup_page(this.text);">&lt;</a></li>
+                    onclick="pagination_setup_page(this.text);"><i class="fas fa-angle-left arrow-color"></i></a></li>
                 <li id="id-pagination-1" class="d-none page-item px-1"><a class="page-link dot border-0"
                     onclick="pagination_setup_page(this.text);">1</a></li>
                 <li id="id-pagination-dots-1" class="d-none page-item p-1 disabled">...</li>
@@ -623,17 +623,17 @@
                 <li id="id-pagination-12" class="d-none page-item px-1"><a class="page-link dot border-0"
                     onclick="pagination_setup_page(this.text);">12</a></li>
                 <li id="id-pagination-gt" class="d-none page-item px-1"><a class="page-link dot border-0"
-                    onclick="pagination_setup_page(this.text);">&gt;</a></li>
+                    onclick="pagination_setup_page(this.text);"><i class="fas fa-angle-right arrow-color"></i></a></li>
               </ul>
             </nav>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 my-0">
+          <div class="col-12 col-md-6 col-lg-4 mt-2 my-lg-0">
             <div class="row justify-content-center justify-content-md-end">
               <form class="form-inline">
                 <div class="form-group input-group-sm">
                   <label for="id-pagination-input" class="mr-2 gray-color small font-size-15 dark-blue-color">Go to</label>
-                  <input id="id-pagination-input" type="text" class="mr-2 text-center" placeholder="">
-                  <button type="button" class="btn light-blue-bgcolor text-white"
+                  <input id="id-pagination-input" type="text" class="mr-2 text-center page-box-border" placeholder="">
+                  <button type="button" class="btn light-blue-bgcolor text-white border-radius-8"
                     onclick="pagination_setup_page(document.querySelector('#id-pagination-input').value);">
                     <i class="fa fa-check" aria-hidden="true"></i>
                   </button>

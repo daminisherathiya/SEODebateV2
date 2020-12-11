@@ -101,6 +101,9 @@ input.largerCheckbox {
 .mb-11 {
   margin-bottom: 11px;
 }
+.mt-17 {
+  margin-top: 17px;
+}
 button:hover {
   background-color: #0046e9 !important;
 }
@@ -112,7 +115,7 @@ button:hover {
     box-shadow: 0.954px 4.908px 9px 0 rgba(185,192,206,.5);
 }
 .border-radius-4 {
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 .border-radius-top-8 {
   border-top-left-radius: 8px;
@@ -129,6 +132,9 @@ button:hover {
 .border-radius-bottom-6 {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
+}
+.border-radius-8 {
+  border-radius: 8px !important;
 }
 .card-subtxt {
     margin-top: 18px;
@@ -268,15 +274,22 @@ button:hover {
 .newsletter-background {
   background-color: #f5f7fb;
 }
+.arrow-color {
+  color: #a3a7b4 !important;
+}
 .dot {
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
   background-color: transparent;
   border-radius: 50% !important;
   text-align: center;
 }
 .dot:hover {
   background-color: #e5e7ec;
+}
+.page-box-border {
+  border: 1px solid #e5e7ec;
+  border-radius: 8px;
 }
 .disabled-dot {
   pointer-events: none;
@@ -290,8 +303,6 @@ button:hover {
 }
 #id-pagination-nav .page-item.active .page-link {
   background-color: #3369e8 !important;
-}
-#id-pagination-nav .page-item.active .page-link {
   color: #d6def9 !important;
 }
 #id-pagination-nav .page-link:hover {
