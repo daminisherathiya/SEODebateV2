@@ -74,9 +74,10 @@ input::placeholder {
     font-weight: 400;
     font-family: Averta-Regular;
 }
-.newsletter-top-padding input::placeholder {
+.newsletter-y-padding input::placeholder {
   font-size: 15px;
   font-weight: 400;
+  font-family: Averta-Regular;
 }
 .title-top-padding {
     padding-top: 168px;
@@ -88,6 +89,9 @@ input.largerCheckbox {
 }
 .padding-30 {
     padding: 30px;
+}
+.padding-fix {
+  padding: 21px 30px 22px 30px;
 }
 .padding-y-42 {
     padding: 42px 0;
@@ -117,6 +121,9 @@ button:hover {
 .border-radius-4 {
   border-radius: 4px !important;
 }
+.border-radius-7 {
+  border-radius: 7px !important;
+}
 .border-radius-top-8 {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -126,8 +133,8 @@ button:hover {
   border-bottom-left-radius: 8px;
 }
 .border-radius-top-6 {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .border-radius-bottom-6 {
   border-bottom-right-radius: 6px;
@@ -161,11 +168,11 @@ button:hover {
     margin-top: 20px;
 }
 .services-margin-top {
-    margin-top: 95px;
+    margin-top: 97px;
 }
 .video-setter {
-    padding-top: 145px;
-    background: url(../images/backgrounds/background_between.png) no-repeat top 45px center;
+    padding-top: 114px;
+    background: url(../images/backgrounds/background_between.png) no-repeat top 14px center;
 }
 .bg-questions {
   background-color: #e8ecf7;
@@ -200,10 +207,10 @@ button:hover {
   color: #e5e7ec;
 }
 .featured-top-padding {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 .seo-community {
-  padding-top: 125px;
+  padding-top: 120px;
   padding-bottom: 25px;
   background: linear-gradient(181deg,#fff 33%,#f5f7fb 66%);
 }
@@ -220,12 +227,12 @@ button:hover {
 .icon-position-left {
   position: absolute;
   left: -12px;
-  top: 40px;
+  top: 22px;
 }
 .icon-position-right {
   position: absolute;
   left: -4px;
-  top: 40px;
+  top: 22px;
 }
 .featured-card-padding:hover {
   box-shadow: -6px 0 24px 0 rgba(104,113,134,.15);
@@ -246,22 +253,28 @@ button:hover {
   padding-top: 80px;
 }
 .latest-y-padding {
-  padding-top: 80px;
-  padding-bottom: 90px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 .newsletter-checkbox-padding {
   padding: 0 13px;
 }
 .footer-setter {
-  padding-top: 100px;
-  padding-bottom: 89px;
+  padding-top: 90px;
+  padding-bottom: 44px;
   background: url(../images/backgrounds/background_bottom.png) no-repeat top 80px center;
 }
 .my-30 {
   margin: 30px 0;
 }
+.my-35 {
+  margin: 35px 0;
+}
 .px-40 {
   padding: 0 40px 0 40px !important;
+}
+.px-20 {
+  padding: 8px 22px !important;
 }
 .be-social-fa-icon-font-size {
   font-size: 27px !important;
@@ -289,7 +302,7 @@ button:hover {
 }
 .page-box-border {
   border: 1px solid #e5e7ec;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .disabled-dot {
   pointer-events: none;
