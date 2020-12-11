@@ -72,6 +72,7 @@ body {
 input::placeholder {
     font-size: 18px;
     font-weight: 400;
+    font-family: Averta-Regular;
 }
 .newsletter-top-padding input::placeholder {
   font-size: 15px;
@@ -80,14 +81,28 @@ input::placeholder {
 .title-top-padding {
     padding-top: 168px;
 }
+input.largerCheckbox { 
+  width: 18px; 
+  height: 18px; 
+  margin-right: 10px;
+}
 .padding-30 {
     padding: 30px;
 }
 .padding-y-42 {
     padding: 42px 0;
 }
-.margin-top-15 {
-  margin-top: 15px;
+.margin-top-20 {
+  margin-top: 20px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.mb-11 {
+  margin-bottom: 11px;
+}
+button:hover {
+  background-color: #0046e9 !important;
 }
 .shadow-card {
     box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
@@ -193,9 +208,17 @@ input::placeholder {
 .featured-card-repeat-padding {
   padding: 50px 50px 50px 75px;
 }
-.icon-position {
+.mb-50 {
+  margin-bottom: 50px;
+}
+.icon-position-left {
   position: absolute;
   left: -12px;
+  top: 40px;
+}
+.icon-position-right {
+  position: absolute;
+  left: -4px;
   top: 40px;
 }
 .featured-card-padding:hover {
@@ -221,7 +244,7 @@ input::placeholder {
   padding-bottom: 90px;
 }
 .newsletter-checkbox-padding {
-  padding: 0 25px;
+  padding: 0 13px;
 }
 .footer-setter {
   padding-top: 100px;
@@ -230,6 +253,9 @@ input::placeholder {
 }
 .my-30 {
   margin: 30px 0;
+}
+.px-40 {
+  padding: 0 40px 0 40px !important;
 }
 .be-social-fa-icon-font-size {
   font-size: 27px !important;
