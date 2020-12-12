@@ -87,6 +87,9 @@ input.largerCheckbox {
   height: 18px; 
   margin-right: 10px;
 }
+.padding-l-5 {
+  padding-left: 5px;
+}
 .padding-30 {
     padding: 30px;
 }
