@@ -111,8 +111,14 @@ input.largerCheckbox {
 .mt-17 {
   margin-top: 17px;
 }
-button:hover {
+.btn-hover-effect:hover {
   background-color: #0046e9 !important;
+}
+.nav-toggle-btn:hover {
+  background-color:#ececec;
+}
+.nav-toggle-btn:focus {
+  outline: none !important;
 }
 .shadow-card {
     box-shadow: 0 3px 12px 0 rgba(104,113,134,.2);
