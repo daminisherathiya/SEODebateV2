@@ -255,6 +255,9 @@ button:hover {
 .margin-bottom-40 {
   margin-bottom: 40px;
 }
+.girl-img {
+  max-width: 100%;
+}
 .all-about-seo-top-padding {
   padding-top: 80px;
 }
