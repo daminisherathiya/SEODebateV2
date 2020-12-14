@@ -293,6 +293,9 @@ input::placeholder {
   top: 0 !important;
   outline: none !important;
 }
+.list-style-none {
+  list-style: none;
+}
 .custom-checkbox:hover > .custom-control-label::before {
   box-shadow: 0 0 7px grey;
 }
