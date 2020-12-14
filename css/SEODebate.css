@@ -91,11 +91,6 @@ input::placeholder {
 .title-top-padding {
     padding-top: 168px;
 }
-input.largerCheckbox { 
-  width: 18px; 
-  height: 18px; 
-  margin-right: 10px;
-}
 .padding-l-5 {
   padding-left: 5px;
 }
@@ -288,6 +283,34 @@ input.largerCheckbox {
   padding-bottom: 44px;
   background: url(../images/backgrounds/background_bottom.png) no-repeat top 80px center;
 }
+.custom-control-label {
+  padding-left: 8px;
+}
+.custom-control-label::before {
+  width: 20px !important;
+  height: 20px !important;
+  vertical-align: middle !important;
+  top: 0 !important;
+  outline: none !important;
+}
+.custom-checkbox:hover > .custom-control-label::before {
+  box-shadow: 0 0 7px grey;
+}
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: #3369e8 !important;
+}
+.custom-control-input:not(:checked)~.custom-control-label::before {
+  border: 3px solid #e1e3e7 !important;
+}
+.custom-checkbox .custom-control-label::before {
+  border-radius: 1px !important;
+}
+.custom-control-label::after {
+  width: 20px !important;
+  height: 20px !important;
+  top: 0 !important;
+}
+
 .my-30 {
   margin: 30px 0;
 }
@@ -325,7 +348,7 @@ input.largerCheckbox {
   background-color: #e5e7ec;
 }
 .page-box-border {
-  border: 1px solid #e5e7ec;
+  border: 1px solid #e5e7ec !important;
   border-radius: 6px;
 }
 .disabled-dot {
